@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "bib2yaml"
+version = "1.0.0"
+description = "Converts a BibTeX file to YAML format"
+authors = ["Ajit Johnson Nirmal <ajitjohnson.n@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+bibtexparser = "^1.4.0"
+pylatexenc = "^2.10"
+argparse = "^1.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
